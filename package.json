@@ -1,17 +1,21 @@
 {
-  "name": "read_write_file",
+  "name": "lecture",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my first node.js project",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
     "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
